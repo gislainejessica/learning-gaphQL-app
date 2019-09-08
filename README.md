@@ -19,5 +19,12 @@
 
  // Acessar ide via browser, com a rota principal setada, podemos acessar a ide para fazer os testes no navegador
  `http://localhost:4000/graphql`
- 
-
+ // ---------------------- Criar nova branch para mandar pro GitHub ----------------------- //
+ `git init`
+ `git add *`
+ `git commit -m "Mensagem"`
+ `git clone http://github.com/gislainejessica/Graphql.git`
+ `git branch novaBranch`
+ `git checkout novaBranch`
+ `git remote add novaBranch graphql-server http://github.com/gislainejessica/Graphql.git`
+ `git push --set-upstream graphql-server novaBranch`
