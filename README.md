@@ -56,6 +56,13 @@
  
  `git push --set-upstream graphql-server novaBranch`
 
+ # Ou de forma mais facil e rapida ----
+
+ `git clone https://github.com/gislainejessica/GraphQl.git`
+ `cd GraphQl`
+ `code .`
+ - Tchanraaaamm, magic 
+
  # Instalando novas dependencias
  `npm install axios json-server`
  # Add novo script para json-server

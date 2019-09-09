@@ -9,16 +9,6 @@ const {
 
 const axios = require('axios');
 
-// Dados locais para fazer teste de instalação e vê se configuração está funcionando
-
-/*
-const usuarios = [
-    {id: 1, nome: "jessica", email: "jessica@email.com", idade: 30},
-    {id: 2, nome: "gislaine", email: "gislaine@email.com", idade: 20},
-    {id: 3, nome: "tiburcio", email: "tiburcio@email.com", idade: 10}
-]
-*/
-
 // Tipo Uasuário 
 const usuarioType = new GraphQLObjectType({
     name: 'usuario',
