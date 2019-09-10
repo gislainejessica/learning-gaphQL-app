@@ -74,3 +74,4 @@ Cannot GET /
 - Rodar servidor json server `npm run json:server`
 
 # Mutation (Adicionar, Editar e Deletar)
+- `npm install cors`
